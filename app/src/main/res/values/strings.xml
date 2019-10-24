@@ -1,8 +1,20 @@
 <resources>
     <string name="app_name">AboutMe</string>
     <string name="myName">Ong Lee Jin</string>
+    <string name="profile_pic">Profile Picture</string>
     <string name="profile_desc">Education:\n
     \n\tSJKC Chi Ming 1, Tangkak\n
     \n\tSMK Ledang, Tangkak\n
+    \n\tTAR UC, Kuala Lumpur\n
+    \n\tSJKC Chi Ming 1, Tangkak\n
+    \n\tSMK Ledang, Tangkak\n
+    \n\tTAR UC, Kuala Lumpur\n
+    \n\tSJKC Chi Ming 1, Tangkak\n
+    \n\tSMK Ledang, Tangkak\n
+    \n\tTAR UC, Kuala Lumpur\n
+    \n\tSJKC Chi Ming 1, Tangkak\n
+    \n\tSMK Ledang, Tangkak\n
     \n\tTAR UC, Kuala Lumpur\n</string>
+    <string name="what_is_your_nickname">What is your Nickname?</string>
+    <string name="done">Done</string>
 </resources>

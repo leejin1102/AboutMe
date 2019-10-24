@@ -10,13 +10,42 @@
 
     <TextView
         android:id="@+id/textViewName"
+        style="@style/my_text_style"
         android:text="@string/myName"
-        style="@style/my_text_style" />
+        app:fontFamily="@font/roboto" />
+
+    <EditText
+        android:id="@+id/nickname_edit"
+        style="NameStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="@string/what_is_your_nickname"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/done_button"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/text_size"
+        android:text="@string/done"
+        app:fontFamily="@font/roboto" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="395dp"
         android:layout_height="148dp"
+        android:contentDescription="@string/profile_pic"
         app:srcCompat="@drawable/pic" />
 
     <ScrollView
@@ -31,7 +60,7 @@
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:text="@string/profile_desc"
                 app:fontFamily="@font/roboto" />
         </LinearLayout>
